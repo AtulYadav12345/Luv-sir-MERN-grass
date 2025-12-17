@@ -1,0 +1,129 @@
+#Flexbox-container{
+    border: 2px solid black;
+    height: 900px;
+    width: 1000px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; /*isse row vertically mover krti hai kyoki yha pe main-axis row(horizontal) hai mtlb cross-axis vertical hai aur align item main-axis ke items ko cross-axis ki direction me move krta hai */ 
+}
+
+#Flexbox-Item1{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: rebeccapurple;
+}
+#Flexbox-Item2{
+     border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+}
+#Flexbox-Item3{
+     border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
+#Flexbox-Item4{ 
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+#Flexbox-Item5{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+#Flexbox-container80{
+    border: 2px solid black;
+    height: 900px;
+    width: 1300px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* align-content: center; */ /*only work with flex-wrap, used to align multiple line */
+    /* align-items: center; */ /*align one/many lines always work*/
+     /*isse row vertically mover krti hai kyoki yha pe main-axis row(horizontal) hai mtlb cross-axis vertical hai aur align item main-axis ke items ko cross-axis ki direction me move krta hai */ 
+}
+
+#Flexbox-Item1a{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: rebeccapurple;
+    /* align-items: end; */
+    align-self: flex-end; /*single item ko hilane ke liye use hota hai*/
+}
+#Flexbox-Item2a{
+     border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+}
+#Flexbox-Item3a{
+     border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
+#Flexbox-Item4a{ 
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+#Flexbox-Item5a{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: greenyellow;
+}
+
+
+
+#Flexbox-Item1b{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: rebeccapurple;
+    /* align-items: end; */
+}
+#Flexbox-Item2b{
+     border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+}
+#Flexbox-Item3b{
+     border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
+#Flexbox-Item4b{ 
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+#Flexbox-Item5b{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: greenyellow;
+}

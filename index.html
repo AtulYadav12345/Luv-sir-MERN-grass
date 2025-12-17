@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-practices</title>
+    <link rel="stylesheet" href="style.css">>
+</head>
+<body>
+    <!-- viewport refer to the every content which visible on the website -->
+    <p id="text"> hello world</p>
+    <p id="Box">Box</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facilis quos explicabo expedita sapiente aspernatur, repellendus exercitationem? Cum modi quibusdam praesentium repudiandae, asperiores, voluptatum a adipisci alias quod neque voluptate.</p>
+    <h1>hello</h1>
+    <h2>hello</h2>
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <h5>hello</h5>
+    <h6>hello</h6>
+    <img src="img.jpg" id="img1">
+    <img src="img2.jpg">
+    <p><pre>Contain info about box model how total height calculate like in this total height which include 
+        <b>(top margin height) + (top border height) + (top padding height) + (img height) + (bottom padding height) + (bottom border height) + (Bottom margin height) = Total height of a block</b></pre></p>
+    <style>
+        #Box{
+            border: 2px solid black;
+        }
+        #img1{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 10px;
+            box-sizing: border-box;
+            /* box-sizing: content-box; */
+
+            /* Box sizing box ke margin ko count nahi krta baki sb count krta hai ye khudse adjust krta hai ye only box ke content pe impact dalta hai dusri chijo (padding all side, border all side ) pe nahi aur unke hisab se box content ko adjst krta hai*/
+            /* box sizing = padding + border + content/text */
+
+            padding: 5px 6px 7px 8px;
+            /* isse aap uneven padding ke skte ho mtlb sari side ko alg-alg padding de skte hai 1.top 2.right 3.bottom 4.left mtlb clockwise hm hr side ki padding de sakte hai */
+            margin: 5px 10px 20px 30px;
+            /* ab yha pr hmne margin ki sari sides ko clock wise margin de diya hai 1.Top 2.Right 3.Bottom 
+            4.Left*/
+            /* margin-top: ;
+            margin-bottom: ; hmm ese bhi alg-alg margin ki side de skte hai aur ese hi padding ko bhi de sakte hai
+            margin-left: ;
+            margin-right: ; */
+        } 
+        /* *{
+            margin: 10%;
+            padding: 0%;
+            margin-bottom: 20%; 
+            m
+            /* agr hm do margin type eksath deni ho tb jo pasme likhenge usko browser pehle access krega */
+        /* } */
+    </style>
+
+    <!-- Block elements-->
+     <!-- div, Heading tag,p,list,table, ye element puri webpage ki horizontal space leleta hai left se rght tk ki puri space leleta hai -->
+
+    <!-- Inline elements -->
+     <!-- img,span, inline elements pure webpage ki horizontal left to right space nahi leta bs jitni jarurt hoti hai utna hi space leti hai  -->
+
+     <!--#Q Block element me inline element rkh skte hai but inline ma block element nahi dal skte hai  -->
+
+    <h3 style="border: 2px;">Hello</h3> 
+    <p style="border: 2px;">Hello world</p>
+
+    <div id="div1">
+        <h1>Master</h1>
+        <img src="img.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga neque harum ad, pariatur quas soluta? Alias, deserunt? Mollitia laborum numquam in soluta neque iure dignissimos facere illum itaque, vitae eaque.</p>
+    </div>
+    <style>
+        #div1{
+            border: 2px solid black; 
+        }
+    </style>
+
+    <span>
+        <h1>google</h1>
+        <a href="google.com">image google</a>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+    </span>
+
+    <!------------------------Positioning--------------------->
+    <!-- div.box*5 isse hm 5 div tag bna payenge aur box naam ki tag ke sath hi panch div tag with box class bn jayegi  -->
+
+    <div id="Container-box">
+    <div class="items" id="Box1a"></div>
+    <div class="items" id="Box1b"></div>
+    <div class="items" id="Box1c"></div>
+    <div class="items" id="Box1d"></div>
+    <div class="items" id="Box1e"></div>
+    <div class="items" id="Box1f"></div>
+    </div>
+    <div id="div-hello">
+        hello
+    </div>
+
+    <div id="transition1">hello</div>
+    <div id="box-shadow">hello</div>
+
+    <diV id="box1m">
+        <div id="box2m">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <div id="flexbox56-container">
+        <div id="flex-item1"></div>
+        <div id="flex-item2"></div>
+        <div id="flex-item3"></div>
+        <div id="flex-item4"></div>
+        <div id="flex-item5"></div>
+        <div id="flex-item6"></div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="Flex-containera1">
+        <div id="Flex-itemsa1"></div>
+        <div id="Flex-itemsa2"></div>
+        <div id="Flex-itemsa3"></div>
+        <div id="Flex-itemsa4"></div>
+        <div id="Flex-itemsa5"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div id="Flex-containera2">
+        <div id="Flex-itemsa1a"></div>
+        <div id="Flex-itemsa2a"></div>
+        <div id="Flex-itemsa3a"></div>
+        <div id="Flex-itemsa4a"></div>
+        <div id="Flex-itemsa5a"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!------------------------------------------- Grid-------------------------------------------------->
+
+    <div id="Grid-container">
+        <div id="grid-items1" class="grid-class1"></div>
+        <div id="grid-items2" class="grid-class2"></div>
+        <div id="grid-items3" class="grid-class3"></div>
+        <div id="grid-items4" class="grid-class4"></div>
+        <div id="grid-items5" class="grid-class5"></div>
+        <div id="grid-items5" class="grid-class6"></div >
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div id="color-container094">
+        <div id="color-itme1">1</div>
+        <div id="color-itme2">2</div>
+        <div id="color-itme3">3</div>
+        <div id="color-itme4">4</div>
+        <div id="color-itme5">5</div>
+        <div id="color-itme6">6</div>
+        <div id="color-itme7">7</div>
+        <div id="color-itme8">8</div>
+        <div id="color-itme9">9</div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <div id="grid-template-area56">
+        <div id="Itemj1"></div>
+        <div id="Itemj2"></div>
+        <div id="Itemj3"></div>
+        <div id="Itemj4"></div>
+        <div id="Itemj5"></div>
+        <div id="Itemj6"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- Question of applying my query responsivness on the grid -->
+
+    <div id="My-query">Responsiveness achieved by my query</div>
+
+    <!-- Bootstrap ko pdna hai homework -->
+
+    
+</body> 
+</html> 

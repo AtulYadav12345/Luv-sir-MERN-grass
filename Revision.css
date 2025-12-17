@@ -1,0 +1,12 @@
+.navbar675{
+    border: 2px solid black;
+    height: 60px;
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#Heading45{
+    display: inline-block;
+    color: blue ;
+}

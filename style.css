@@ -1,0 +1,663 @@
+#text{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 2px red;
+    text-decoration-color: blue;
+    text-decoration-thickness: 10px;
+    color: hsl(hue, saturation, lightness);
+    color: rgb(red, green, blue);
+    color: #360 ; /*hex color*/
+    /* hsl hue saturation lightness*/
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-style: dashed;
+
+    /* box model important topic */
+    /* every element have a box in which it applied on web page */
+    /* 1.margin */
+    /* 2.padding */
+    /* Border */
+    /* Text/title */
+    /* text content box layer > padding layer of box > border layer > Margin  */
+    /* 1.                       2.                       3.             4.*/
+
+    /* text se lekr border tk ki space padding hao and border se lekr screen ke end tk ki distance ko margin kehte hau */
+    /* kbhi kbhi browser khudse margin dedeta hai
+     */
+     /* Uneven margin mtlb sari side ki alg margin deni ho tb uske */
+    }
+
+
+
+    /* <!------------------------Positioning---------------------> */
+
+    #Container-box{
+        border: 2px solid black;
+        background-color: aqua;
+        display: inline-block;
+        width: 900px;
+        height: 500px;
+    }
+    .items{
+        border: 2px solid black;
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+    }
+    #Box1a{
+        border: 2px solid black;
+        background-color: #ff0000;
+        position: absolute; /*Ye absolute position apne box */
+    }
+    #Box1b{
+        border: 2px solid black;
+        background-color: blue;
+        position: relative; /*ye relative position box ya content ko ek jgh rkhta chahe upr niche ki chije kitni bhi hilalae apn log */
+    }
+    #Box1c{
+        border: 2px solid black;
+        background-color: blueviolet;
+        top: 10px ;
+        /* position: fixed;  */
+        /* ye fixed position ye kam krta jisme jese amazon website me jb hm scroll krte hai tb scroll krne ke sath sath navbar/searhcbar bhi apne sath niche jata usko iss position ko lgake kraya jata hai*/
+    }
+    #Box1d{
+        border: 2px solid black;
+        background-color: chartreuse;
+        position: static; /*ye by default position hoti jb tk koi aur position nahi dete tb tk position static position hi deti hai */
+    }
+    #Box1e{
+        border: 2px solid black;
+        background-color: darkmagenta;
+        position: sticky; /*fixed position ma bhi hm nevbar ko niche la skte hai pr bs us particular container tk hi  */
+    }
+    #Box1f{
+        border: 2px solid black;
+        background-color: firebrick;
+    }
+
+    #div-hello{
+        border: 2px solid black;
+        height: 700px;
+        background-color: #ff0000;
+    }
+
+
+/* ---------------------------------Transition and Animation---------------------- */
+/* pseudo class- created by using these symbol :
+
+   pseudo elements- Tag with full content, represent by double colon ::
+   
+   :hover- when we take our curser on that element or class then it change from initial state to final state 
+    
+   transition-duration- Through this we able to give timing of transition means what time taken to go from initial state to final state
+
+   transition-delay- In this when we start transition through this it take time before starting the process of changing from initial state to final state kind of wait before transition
+
+   transition-property- which particular part of element/class we need to aply 
+
+   transition-timing-function- ease, ease-in, ease-out, ease-in-out*/
+
+   #transition1{
+    border: 2px solid black;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    color: black;
+   }
+   #transition1:hover{
+    border: 5px solid green;
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    color: yellow;
+
+    transition-duration: 6s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+   }
+
+   #box-shadow{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    box-shadow: 10px 10px 10px;
+    margin-left: 30px;
+   }
+
+  
+
+   /*   Question z-index in position*/
+
+   /* ---------------------------CSS size units-------------------------------------
+
+      px, em, rem, %, VW, VH
+      It related to Responsivness(means adjust according to device size)  */
+
+      /* .There are two types of units 
+          
+          1).Absolute- isme ye responsive nahi hota mtlb hm jitni bhi absolute unit denge utna hi space ocupy krega responsive nahi hoga mtlb . px used in it 
+
+          2).Relative- VH(viewport height, VW(viewport width) % percentage, em( mainly use for text size), rem(text-font size related) */
+
+          /* em- Iss trh ki size units me hm jo font-size dete hai vo parent ki font-size pe depend krti hai mtlb agr hmne 0.5em denge to ye parent element ke half jitni font-size dedeg*/
+          /* rem- root element is the HTML tag of any webpage which have by default 16px font-size and in rem size unit in css parent container/tag get font-size depend on rem root element(html tag) which is 16px means if we give 0.5rem means it give 8px font-size to the parent element/tag    */
+
+
+
+
+
+          /* -----------------------------Flexbox-----------------------------------------------
+          /* important topic*/
+          /* flexible  */
+          /* display:flex*/
+          /* use to create a layout */ 
+          /* flex related study */    
+          /* horizontal line called main axis */
+          /* cross axis is vertical line or y-axis */ 
+          /* If flex-direction is colume then the mains axis is the vertical line
+             if flex-direction is row then the main axis is the horizontal line
+             we able to change main-axis by usinf flex-direction*/
+          /* vertical  */
+          /* justify-content ki vlaues end, centre, space-between, space-evenly, space-around hr box/conent ko left right dono side equal space milti hai */
+
+          /* items 
+           order
+           flex-grow - bina space ke kam nahi krta ye box ya item ke space ko bda deta hai tb  
+           flex-shrink
+           align-self-  Individualy content ko move krna hai  */
+
+
+          #flexbox56-container{
+            border: 2px solid black;
+            background-color: aqua;
+            height: 600px;
+            width: 900px;
+            display: flex;            
+            flex-wrap: wrap;
+            /* flex-direction: column-reverse; */
+            flex-direction: column;
+
+            justify-content: center;
+            align-items: center;
+            /* flex-grow: 3; */
+          }
+
+          #flex-item1{
+            border: 2px solid black;
+            background-color: #ff0000;
+            height: 100px;
+            width: 100px;
+            /* display: flex; */
+          }
+          #flex-item2{
+            border: 2px solid black;
+            background-color: crimson;
+            height: 100px;
+            width: 100px;
+            /* display: flex; */
+          }
+          #flex-item3{
+            border: 2px solid black;
+            background-color: purple;
+            height: 100px;
+            width: 100px;
+            /* display: flex; */
+          }
+          #flex-item4{
+            border: 2px solid black;
+            background-color: #f0ec0c;
+            height: 100px;
+            width: 100px;
+            order: 1;
+            /* display: flex; */
+          }
+          #flex-item5{
+            border: 2px solid black;
+            background-color: hwb(135 13% 5%);
+            height: 100px;
+            width: 100px;
+            flex-shrink: inherit;
+            /* display: flex; */
+          }
+          #flex-item6{
+            border: 2px solid black;
+            background-color: #2600ff;
+            height: 100px;
+            width: 100px;
+            flex-grow: inherit;
+            
+            /* display: flex; */
+          }
+
+          /* align-content- only work with flex-wrap and used to align multiple line items. 
+             align-self-individualy content ko move krna hai */
+             /* order use to give elements a order means which element place at which position 1st,2nd,3rd,4th etc */
+             /* flex-grow- jb space ho tb vo particaular element bda dikhne lgta dusre elements ke comparisions me */
+             /* flex-shrink- jb space km ho tb vo particaular element shrink dikhne lgta hai dusre elements ke comparision me */
+
+
+             
+
+             #Flex-containera1{
+              border: 2px solid black;
+              height: 900px;
+              width: 1000px;
+              background-color: #f0ec0c;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+             }
+             #Flex-itemsa1{
+              border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: pink;
+              
+             }
+             #Flex-itemsa2{
+               border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: orange;
+             }
+             #Flex-itemsa3{
+               border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: purple;
+             }
+             #Flex-itemsa4{
+               border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: green;
+             }
+             #Flex-itemsa5{
+               border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: red;
+             }
+
+
+
+             #Flex-containera2{
+              border: 2px solid black;
+              height: 900px;
+              width: 1000px;
+              background-color: chocolate;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+             }
+             #Flex-itemsa1a{
+              border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: pink;
+              
+             }
+             #Flex-itemsa2a{
+               border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: orange;
+             }
+             #Flex-itemsa3a{
+               border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: purple;
+             }
+             #Flex-itemsa4a{
+               border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: green;
+             }
+             #Flex-itemsa5a{
+               border: 2px solid black;
+              height: 100px;
+              width: 100px;
+              background-color: red;
+             }
+
+
+
+
+
+             /* ---------------------------------------Grid------------------------------------------------ */
+             /* Two dimensional layout create krne me mdd krta hai Row aur column dono eksath de skte hai */
+             /* Grid 
+             1-row and colume dono direction me kam kr skte hai
+             2-start by using display:grid; 
+             3-grid-template-columns- grid me columns bnane ke liye size ke sath
+             4-grid-template-row-  grid me row bnane ke liye size ke sath
+             5.gap- columns ya rows ke bichme gap dene ke liye
+             iski properties justify-content, align-content, justify-items, align-items
+             6.Table ki trh row and column behave krenge*/
+
+             #Grid-container{
+              border: 2px solid black;
+              background-color: aqua;
+              width: 1400px;
+              height: 1600px;
+
+              display: grid;
+              /* grid-template-columns: 200px 200px 200px 200px; */
+              /* grid-template-rows: 200px 200px 200px; */
+
+              justify-content: center;
+              /* align-items: center;  */
+              /*ye boxes ke bichme */
+              align-content: center;
+              grid-template-rows:repeat(3,200px);
+              grid-template-columns: repeat(6,200px);
+
+              grid-template-columns: 1fr 2fr 1fr;
+              grid-template-rows: 1fr 1fr 1fr;
+
+              /* row-gap: 10px; */
+              /* column-gap: 10px; */
+              gap: 10px; /*Gap shorthend mtlb row aur column dono ko eksath same gape dedega*/
+             }
+
+             #grid-items1{
+              border: 2px solid black;
+              background-color: #f0ec0c;
+              grid-column-start: 1; /*grid line number dena hai, grid line jo box/items ke bichme jo border jesi line hoti hai*/
+              grid-column-end: 4;
+          
+             }
+             #grid-items2{
+              border: 2px solid black;
+              background-color: blue;
+              grid-row-start: 2;
+              grid-row-end: 4;
+             }
+             #grid-items3{
+              border: 2px solid black;
+              background-color: green;
+             }
+             #grid-items4{
+              border: 2px solid black;
+              background-color: red;
+             }
+             #grid-items5{
+              border: 2px solid black;
+              background-color: orangered;
+              grid-column-start: 1;
+             }
+
+
+             /*---------------------------------------- Grid website layout--------------------------- */
+
+
+
+             #color-container094{
+              display: grid;
+              height: 1100px;
+              width: 1260px;
+              grid-template-columns: repeat(4,300px);
+              grid-template-rows: repeat(5, 200px);
+              background-color: aquamarine;
+              gap: 16px;
+             }
+             #color-itme1{
+              background-color: pink;
+              border: 2px solid black;
+              grid-column-start: 1;
+              grid-column-end: 5;
+              background-image: url(jp-beautiful-3.jpg);
+              background-size: cover;
+              background-repeat: no-repeat;
+             }
+             #color-itme2{
+              background-color: rgb(243, 81, 81);
+              border: 2px solid black;
+              background-image: url(jp-beautiful-1.jpeg);
+              background-size: cover;
+             }
+             #color-itme3{
+              background-color: yellow;
+              border: 2px solid black;
+              grid-column-start: 2;
+              grid-column-end: 4;
+              grid-row-start: 2;
+              grid-row-end: 4;
+              background-image: url(jp-beautiful-2.jpg);
+              background-size: contain;
+             }
+             #color-itme4{
+              background-color: rgb(243, 81, 81);
+              border: 2px solid black;
+              background-image: url(Anime-22.jpg);
+              background-size: cover;
+             }
+             #color-itme5{
+              background-color: rgb(102, 17, 17);
+              border: 2px solid black;
+              grid-row-start: 3;
+              grid-row-end: 5;
+              background-image: url(jp-beautiful-5.jpg);
+              background-size: cover;
+             }
+             #color-itme6{
+              background-color: rgb(76, 76, 238);
+              border: 2px solid black;
+              background-image: url(jp-beautiful-10.jpg);
+              background-size: contain;
+             }
+             #color-itme7{
+              background-color: orange;
+              border: 2px solid black;
+              grid-column-start: 2;
+              grid-column-end: 5;
+              background-image: url(jp-beautiful-6.jpg);
+              background-size: cover;
+             }
+             #color-itme8{
+              background-color: yellowgreen;
+              border: 2px solid black;
+              grid-column-start: 1;
+              grid-column-end: 4;
+              background-image: url(jp-beautiful-7.jpg);
+              background-size: cover;
+             }
+             #color-itme9{
+              background-color: rgb(233, 33, 233);
+              border: 2px solid black;
+              background-image: url(jp-beautiful-8.jpeg);
+              background-size: cover;
+             }
+
+
+             /*--------------------------------- grid-template-area---------------------------------- */
+             #grid-template-area56{
+              background-color: aqua;
+              height: 800px;
+              width: 1000px;
+              display: grid;
+              grid-template-columns: 400px 400px 400px;
+              grid-template-rows: 200px 200px 200px 200px; /*hm grid-template-area se sirf yahi decide kr skte hai ki konsa slement konse row ya box pe ayega but unki size hm grid-template-column aur grid-template-row se decide krenge*/
+
+              grid-template-areas: "header header header"
+                                  " card1  card2  card2"
+                                  " card1  card3  card4"
+                                  " card5  card5  card5"; /*yha pr hm iss trike se hr row aur colum me kya ayega ye decide krenge*/
+              
+             }
+
+             #Itemj1{
+              border: 2px solid black;
+              background-color: red;
+              grid-area: header;   /*grid-area deker sare elements ko alg-alg name dene honge grid-area ma jinka grid-template-area me use krke hm grid layout bna skte hai*/
+             }
+             #Itemj2{
+              border: 2px solid black;
+              background-color: #360;
+              grid-area: card1;
+             }
+             #Itemj3{
+              border: 2px solid black;
+              background-color: #2600ff;
+              grid-area: card2;
+             }
+             #Itemj4{
+              border: 2px solid black;
+              background-color: chocolate;
+              grid-area: card3;
+             }
+             #Itemj5{
+              border: 2px solid black;
+              background-color: burlywood;
+              grid-area: card4;
+             }
+             #Itemj6{
+              border: 2px solid black;
+              background-color: purple;
+              grid-area: card5;
+             }
+
+             /*----------------------------------- My query------------------------- */
+
+             #My-query{
+              border: 2px solid black;
+              height: 800px;
+              width: 800px;
+              background-color: chocolate;
+             }
+
+             /* @media {max-width:768px;} */
+             /* @media not only mediatype and (expressions)
+             {
+             CSS-Code;
+            }p
+              */
+            @media screen and (max-width: 768px){
+              #grid-template-area56{
+                height: 200px;
+                width: 250px;
+                grid-template-columns: 100px 100px 100px;
+                grid-template-rows: 50px 50px 50px 50px;
+              }
+            }
+            @media screen and (min-width: 769px) and (max-width: 992px){
+              #grid-template-area56{
+                height: 400px;
+                width: 500px;
+                grid-template-columns: 200px 200px 200px;
+                grid-template-rows: 100px 100px 100px 100px;
+              }
+            }
+            @media screen and (min-width: 993px) and (max-width:1200px){
+              #grid-template-area56{
+                height: 800px;
+                width: 1000px;
+                grid-template-columns: 400px 400px 400px;
+                grid-template-rows: 200px 200px 200px 200px;
+              }
+            }
+
+
+             @media screen and (min-width: 1500px){
+              #grid-template-area56{
+                height: 800px;
+                width: 1000px;
+                grid-template-columns: 400px 400px 400px;
+                grid-template-rows: 200px 200px 200px 200px;
+
+                grid-template-areas: "header header header"
+                                  " card1  card2  card2"
+                                  " card1  card3  card4"
+                                  " card5  card5  card5"; /*yha pr hm iss trike se hr row aur colum me kya ayega ye decide krenge*/
+              
+             }
+
+             #Itemj1{
+              border: 2px solid black;
+              background-color: red;
+              grid-area: header;   /*grid-area deker sare elements ko alg-alg name dene honge grid-area ma jinka grid-template-area me use krke hm grid layout bna skte hai*/
+              background-image:url(jp-beautiful-2.jpg);
+              background-size: contain;
+             }
+             #Itemj2{
+              border: 2px solid black;
+              background-color: #360;
+              grid-area: card1;
+              background-image:url(jp-beautiful-2.jpg);
+              background-size: cover;
+
+             }
+             #Itemj3{
+              border: 2px solid black;
+              background-color: #2600ff;
+              grid-area: card2;
+              background-image:url(jp-beautiful-2.jpg);
+              background-size: cover;
+             }
+             #Itemj4{
+              border: 2px solid black;
+              background-color: chocolate;
+              grid-area: card3;
+              background-image:url(jp-beautiful-2.jpg);
+              background-size: cover;
+             }
+             #Itemj5{
+              border: 2px solid black;
+              background-color: burlywood;
+              grid-area: card4;
+              background-image:url(jp-beautiful-2.jpg);
+              background-size: cover;
+             }
+             #Itemj6{
+              border: 2px solid black;
+              background-color: purple;
+              grid-area: card5;
+              background-image:url(jp-beautiful-2.jpg);
+              background-size: cover;
+             }
+              }
+
+              @media (max-width: 764px){
+              #My-query{
+              border: 2px solid black;
+              height: 200px;
+              width: 200px;
+              background-color: blueviolet;
+             }
+              }
+
+              @media (min-width:765px) and (max-width:992px)
+              {
+              #My-query{
+              border: 2px solid black;
+              height: 400px;
+              width: 400px;
+              background-color: greenyellow;
+             }
+              }
+
+              @media (min-width:993px) and (max-width:1200px)
+              {
+              #My-query{
+              border: 2px solid black;
+              height: 800px;
+              width: 800px;
+              background-color: chocolate;
+             }
+              }
+            
+
+            
+            
+            
+
+
+

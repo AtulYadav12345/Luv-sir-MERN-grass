@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="self-practice.css">
+</head>
+<body>
+     <style>
+        /* .form1{ */
+            /* border: 2px solid black; */
+            /* } */
+
+        .Sex{
+            text-align: center;
+            width: 107%;
+            
+        }
+        .Birthday{
+            text-align: center;
+            width: 110%;
+        }
+        .State{
+            text-align: center;
+            width: 105%;
+        }
+        .Country{
+            text-align: center;
+        }
+        .form1a{
+            background-color: orangered;
+        }
+
+        #l{
+            color: aliceblue;
+            background-color: brown;
+        }
+        #f{
+            color:yellow ;
+            background-color: orangered;
+        }
+
+        .Site{
+            text-align: center;
+        }
+        #fo{
+            background-color: orangered;
+        }  
+     </style> 
+
+
+
+        <form id="fo">
+        <fieldset id="f">
+            <legend id="l">Personal information</legend>
+
+        <div class="form1a">
+            
+            <div class="Sex">
+                <label for="Sex">Sex: </label>
+            <input type="radio" name="Sex" value="male">Male
+            <input type="radio" name="Sex" value="female">Female
+            </div>
+
+            <br>
+           <div class="Birthday">
+             <label for="birthday">Birthday: </label>
+            <select name="birthday">
+                <option>Month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <select name="birthday">
+                <option>Date</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select name="birthday">
+                <option>Year</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+            </select>
+
+           </div>
+            <br>
+
+            <div class="State">
+                <label for="State">State: </label>
+            <select name="State">
+                <option>Rajasthan</option>
+                <option>Uttar pradesh</option>
+                <option>Punjab</option>
+                <option>Haryana</option>
+                <option>Mdhya pradesh</option>
+                <option>Maharashtra</option>
+                <option>Gujrat</option>
+            </select>
+            </div>
+
+            <br>
+            <div class="Country">
+                <label for="Country">Country:</label>
+            <select name="Country">
+                <option>India</option>
+                <option>USA</option>
+                <option>Brazil</option>
+                <option>Japan</option>
+                <option>Australia</option>
+                <option>France</option>
+                <option>Germany</option>
+            </select>
+            </div>
+        </div>    
+
+        </fieldset>
+
+
+    <style>
+        .u{
+            text-align: center;
+            width: 300px;
+            margin: auto;
+        }
+        .p{
+            text-align: center;
+            width: 300px;
+            margin: auto;
+        }
+        .rp{
+            text-align: center;
+            width: 94%;
+            margin: 0;
+        }
+        .ea{
+            text-align: center;
+            width: 96%;
+            margin: 0;
+        }
+        .rea{
+            text-align: center;
+            width: 91%;
+        }
+        #si{
+            color: beige;
+            background-color: brown;
+        }
+        #fie{
+            background-color: orangered;
+            color: yellow;
+        }
+        #button1{
+            /* background-color: aqua; */
+            text-align: center;                  
+        }
+
+
+
+    </style>
+
+
+
+        <fieldset id="fie">
+            <legend id="si">Site Registration</legend>
+
+           <div class="u">
+             <label for="Username">Username: </label>
+            <input name="Username" value="text">
+           </div>
+           <br>
+
+           <div class="p">
+             <label for="Password">Password: </label>
+            <input name="Password" type="password">
+           </div>
+           <br>
+
+           <div class="rp">
+             <label for="Retype">Retype password: </label>
+            <input type="password" name="Retype">
+           </div>
+           <br>
+
+           <div class="ea">
+             <label for="email">Email address: </label>
+            <input name="email" type="email">
+           </div>
+           <br>
+
+           <div class="rea">
+             <label for="remail">Retype email address</label>
+            <input name="remail" type="email">
+           </div>
+
+           <br>
+
+
+            <div id="button1">
+            <input type="submit" value="submit" style="background-color: greenyellow;">
+            <!-- <button style="color: black;" id="button">Submit</button> -->
+        </div>
+
+           
+            
+        </fieldset>
+       
+    </form>
+
+    <div id="ptest">
+        <img src="mountain.jpeg">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, error nam! Ullam ad, error ratione, sint laboriosam aliquid accusantium eligendi nam asperiores at voluptatibus a! Eaque quo debitis minima sapiente!</p>
+    </div>
+
+    <span id="span1">
+        <img src="mountain.jpeg" id="img76">
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur illum quos numquam harum velit deleniti atque alias culpa explicabo. Eius soluta deleniti consectetur inventore veniam perferendis voluptatibus nemo autem.</p> -->
+        <!-- <p id="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi id quo quis aut dicta earum animi atque fugit neque? Itaque dignissimos inventore dolore tenetur hic aut cupiditate quis quam deleniti.</p>  -->
+        <a href="google.com">Hello</a>
+    </span>
+
+    <div id="Block">
+        <p>Block element</p>
+    </div>
+    <span id="Inline">
+        <p>Inline element</p>
+    </span>
+
+
+    <div id="inlin-block">
+        <img src="mountain.jpeg">
+        <img src="mountain.jpeg">
+        <img src="mountain.jpeg">
+        <img src="mountain.jpeg">
+        <img src="mountain.jpeg">
+        <img src="mountain.jpeg">
+        <img src="mountain.jpeg">
+        <img src="mountain.jpeg">
+        <img src="mountain.jpeg">
+        <img src="mountain.jpeg">
+        <div id="div88"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ad impedit et magni sequi libero modi similique itaque quae consequuntur repellat. Non minus molestias ipsum porro, aliquid eaque in eius!</p></div>
+    </div>
+
+
+    <div id="container">
+        <div id="item1" ><img src="mountain.jpeg">Hello1</div>
+        <div id="item2" ><img src="mountain.jpeg">Hello2</div>
+        <div id="item3" ><img src="mountain.jpeg">Hello3</div>
+        <div id="item4" ><img src="mountain.jpeg">Hello4</div>
+    </div>
+    <br>
+    <br>
+
+    <!-- --------------------------------------------Amazon website---------------------------------- -->
+
+     <div id="dsf11">
+        <div>
+        <div id="navbar-container">
+        <a class="heading1a" id="amazon1">amazon</a>
+        <a class="heading1a" id="Location1">Location</a>
+        <div class="heading1a" id="div-nav1">
+            <input type="text" placeholder="Amazon.in" id="type661"><button id="button1">Search</button>
+        </div>
+        <a class="heading1a" id="Hello-sign-in1">Hello sign in</a>
+        <a class="heading1a" id="Returns1">Return Orders</a>
+    </div>
+
+
+
+    <div id="navbar-container1">
+        <a class="heading1" id="amazon">amazon</a>
+        <a class="heading1" id="Location">Location</a>
+        <div class="heading1" id="div-nav">
+            <input type="text" placeholder="Amazon.in" id="type66"><button id="button">Search</button>
+        </div>
+        <a class="heading1" id="Hello-sign-in">Hello sign in</a>
+        <a class="heading1" id="Returns">Return Orders</a>
+    </div>
+     </div>
+
+     <br>
+    <div id="sale">
+        <img src="amazon-sale-image.jpeg">
+    </div>
+    <br>
+
+
+     <div id="lrt0">
+        <div id="box11"><a href="https://www.amazon.in/s?k=watches&crid=182VS52KBVOAL&sprefix=watches%2Caps%2C818&ref=nb_sb_noss_2" target="_blank"><img src="Watch-image.avif" height="190px" width="200px"></a>This is watch is very good to purchase so purchase it</div>
+
+        <div id="box12"><a href="https://www.amazon.in/s?k=premium+watches&crid=VKH9072QJ8VW&sprefix=premium+watches%2Caps%2C436&ref=nb_sb_noss_1" target="_blank"><img src="Watch-image-2.avif"  height="200px" width="200px"></a>This watch with good black also is very good</div>
+
+        <div id="box13"><a href="https://www.amazon.in/s?k=high+heels&crid=2N3QXAQPBKEMN&sprefix=high+hee%2Caps%2C432&ref=nb_sb_ss_mvt-t11-ranker_1_8" target="_blank"><img src="shoes-image.webp" alt="shoes"  height="200px" width="200px"></a>These high heels or shoes are also a good choice.</div>
+
+        <div id="box14"><a href="https://www.amazon.in/s?k=tshirts+shirts+for+men&crid=7548V86JFQJY&sprefix=tishirt%2Caps%2C341&ref=nb_sb_ss_mvt-t11-ranker_2_7" target="_blank"><img src="T-shirt-image.avif"  height="200px" width="200px"></a>Black and white t-shirt color definetely be look good.</div>
+
+        <div id="box15"><a href="https://www.amazon.in/s?k=hp+victus+gaming+laptop&crid=TL75SWEOUX0F&sprefix=hp+victus%2Caps%2C905&ref=nb_sb_ss_mvt-t11-ranker_1_9" target="_blank"><img src="HP-victus-laptop-image.jpeg"  height="200px" width="200px"></a>HP victus have various features which are necessary.</div>
+
+        <div id="box11a"><a href="https://www.amazon.in/s?k=swimming+costume+for+man+full+body&crid=3V9S9GWW6AQ8K&sprefix=swimming+costume+for+man+fu%2Caps%2C602&ref=nb_sb_ss_mvt-t11-ranker_3_27" target="_blank"><img src="Swimming-suit-image.jpeg" height="200px" width="200px"></a>This swimming suit is very good to purchase.</div>
+
+        <div id="box12b"><a href="https://www.amazon.in/s?k=kurta+for+man&crid=1TQ85V0XLMVB8&sprefix=kurt%2Caps%2C822&ref=nb_sb_ss_mvt-t11-ranker_1_4" target="_blank"><img src="kurta-pjama-image.jpeg"  height="200px" width="200px"></a>This kurta with good black also is very good</div>
+
+        <div id="box13c"><a href="https://www.amazon.in/s?k=iphone&crid=8U2NAQ4ZEACB&sprefix=iphone%2Caps%2C644&ref=nb_sb_noss_2" target="_blank"><img src="iphone-image.jpeg" alt="shoes"  height="200px" width="200px"></a>This iphone is luxury and also a good choice.</div>
+
+        <div id="box14d"><a href="https://www.amazon.in/s?k=Tv&crid=1RBBCB0SXFRI9&sprefix=tv%2Caps%2C346&ref=nb_sb_noss_2" target="_blank"><img src="Tv-image.jpeg"  height="200px" width="200px"></a>Black TV color definetely be look good.</div>
+
+        <div id="box15e"><a href="https://www.amazon.in/s?k=Tablet&crid=17R6S7DYNYKVV&sprefix=tablet%2Caps%2C273&ref=nb_sb_noss_2" target="_blank"><img src="Tablet-image.jpeg"  height="200px" width="200px"></a>Tablet have various features which are necessary.</div>
+
+        <div id="box11f"><a href="https://www.amazon.in/s?k=bag+for+man&crid=23LWJ0L7V316A&sprefix=bag%2Caps%2C484&ref=nb_sb_ss_mvt-t11-ranker_1_3" target="_blank"><img src="Bag-image.jpeg" height="200px" width="200px"></a>This Bag is very good to purchase so purchase it</div>
+
+        <div id="box12g"><a href="https://www.amazon.in/s?k=ac&crid=K2T9U6HJO4WI&sprefix=ac%2Caps%2C884&ref=nb_sb_noss_2" target="_blank"><img src="Ac-image.jpeg"  height="200px" width="200px"></a>This Ac with good black also is very good</div>
+
+        <div id="box13h"><a href="https://www.amazon.in/s?k=dumble&crid=13VSWSYEVO7B3&sprefix=dumble%2Caps%2C422&ref=nb_sb_noss_2" target="_blank"><img src="Dumble-image.jpeg" alt="shoes"  height="200px" width="200px"></a>These Dumbles for exercise are also a good choice.</div>
+
+        <div id="box14i"><a href="https://www.amazon.in/s?k=smart+watch+for+man&crid=WNVXV2TCM1BV&sprefix=smar%2Caps%2C681&ref=nb_sb_ss_mvt-t11-ranker_1_4" target="_blank"><img src="Smartwatch-image.jpeg"  height="200px" width="200px"></a>This smartwatch with good features definetely  good.</div>
+
+        <div id="box15j"><a href="https://www.amazon.in/s?k=washing+machine&crid=59TDZVIOR426&sprefix=washing+machine+%2Caps%2C500&ref=nb_sb_noss_2" target="_blank"><img src="Washing-image.jpeg"  height="200px" width="200px"></a>Washing machine have various features which are necessary.</div>
+
+        <div id="box11k"><a href="https://www.amazon.in/s?k=gaming+chair&crid=2H0AU9IK45POX&sprefix=gaming+chair%2Caps%2C485&ref=nb_sb_noss_2" target="_blank"><img src="chair-image.jpeg" height="200px" width="200px"></a>This chair is very good to purchase so purchase it</div>
+
+        <div id="box12l"><a href="https://www.amazon.in/s?k=gas&crid=1URTFEPG6WJIW&sprefix=ga%2Caps%2C1138&ref=nb_sb_noss_2" target="_blank"><img src="Gas-image.jpeg"  height="200px" width="200px"></a>This is Kitchen related thing with good black also is good</div>
+
+        <div id="box13m"><a href="https://www.amazon.in/s?k=purse+for+women+handbag&crid=1IK372ZOJLA9W&sprefix=purse%2Caps%2C481&ref=nb_sb_ss_mvt-t11-ranker_1_5" target="_blank"><img src="Purse-image.jpeg" alt="shoes"  height="200px" width="200px"></a>These high quality purs are also a good choice.</div>
+
+        <div id="box14n"><a href="https://www.amazon.in/s?k=professional+shoes+for+men&crid=Y30L2KCN43ZI&sprefix=professional+shoe%2Caps%2C1032&ref=nb_sb_ss_mvt-t11-ranker_1_17" target="_blank"><img src="professional-shoes-image.jpeg"  height="200px" width="200px"></a>Black color shoes definetely be look good.</div>
+
+        <div id="box15o"><a href="https://www.amazon.in/s?k=fancy+table&crid=4ZITDSBUCKW&sprefix=fancy+table%2Caps%2C808&ref=nb_sb_noss_1" target="_blank"><img src="Table-image.jpeg"  height="200px" width="200px"></a>This Tablet have various features which are necessary.</div>
+
+        <div id="box11p"><a href="https://www.amazon.in/s?k=bedsheet+for+double+bed+king+size&crid=AXLD9UPNDMOH&sprefix=bedsheet%2Caps%2C781&ref=nb_sb_ss_mvt-t11-ranker_1_8" target="_blank"><img src="Bedsheet-image.jpeg" height="200px" width="200px"></a>This is very good Bedsheet good to purchase it.</div>
+
+        <div id="box12q"><a href="amazon.in/s?crid=PVA6NX1KWKHA&i=aps&k=mixer&ref=nb_sb_noss_2&sprefix=mixer%2Caps%2C1037&url=search-alias%3Daps" target="_blank"><img src="Mixy-image.jpeg"  height="200px" width="200px"></a>This is very good Mixy good to purchase it.</div>
+
+        <div id="box13r"><a href="https://www.amazon.in/s?k=fancy+almari&crid=WE6L9NXYJIRI&sprefix=fancy+almari%2Caps%2C381&ref=nb_sb_noss_1" target="_blank"><img src="Almari-image.jpeg" alt="shoes"  height="200px" width="200px"></a>This is very good Almari good to purchase it.</div>
+
+        <div id="box14s"><a href="https://www.amazon.in/s?k=fancy+water-bottle&crid=H9BO2Y2BPNGL&sprefix=fancy+water-bottle%2Caps%2C497&ref=nb_sb_noss_2" target="_blank"><img src="Bottle-image.jpg"  height="200px" width="200px"></a>This is very good water-bottle good to purchase it.</div>
+
+        <div id="box15t">70% Off on all products only for 3 days </div>
+       
+     </div>
+     </div>
+    <!-- <br> -->
+    <!-- <br> -->
+
+    <div id="a1123">
+        <a href="https://www.amazon.in/" target="_blank"><img src="Offer3-image.webp" height="600px" width="1000px"></a>    
+    </div>
+    <di id="purchase-button">
+        <button id="purchase-button2">Purchase</button>
+    </di>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!------------------------------------- Flexbox--------------------------------------------->
+
+    <div id="Flexbox-container">
+        <div id="item1">Item1</div>
+        <div id="item2">Item2</div>
+        <div id="item3">Item3</div>
+        <div id="item4">Item4</div>
+        <div id="item5">Item5</div>
+    </div>
+    <br>
+    <br>
+
+     <div id="Flexbox-container23">
+        <div id="item1a">Item1a</div>
+        <div id="item2a">Item2a</div>
+        <div id="item3a">Item3a</div>
+        <div id="item4a">Item4a</div>
+        <div id="item5a">Item5a</div>
+    </div>
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,814 @@
+#ptest{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 20px 30px 40px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#span1{
+    border: 2px solid black;
+    box-sizing: border-box;
+    /* height: 300px; */
+    /* width: 300px; */
+    /* margin: 20px 30px 40px 20px; */
+    padding: 10px 10px 10px 10px;
+}
+#img76{
+    border: 50px;
+}
+#Block{
+    border: 2px solid black;
+    box-sizing: border-box;
+    /* height: 300px; */
+    /* width: 300px; */
+    /* margin: 20px 30px 40px 20px; */
+    padding: 10px 10px 10px 10px;
+    display: inline-block; /* display element se hm inline ko block element aur block ko inline me change kr sakte hai aur dono ka hybrid form bhi show kr sakte hai*/
+    display: inline;
+}
+#Inline{
+     border: 2px solid black;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    margin: 20px 30px 40px 20px;
+    padding: 10px 10px 10px 10px;
+    /* display: inline-block; */
+    display: block;
+}
+
+#inlin-block{
+    border: 4px solid black;
+    display: inline-block;
+    margin: 0px;
+}
+#div88{
+    border: 4px solid black;
+    display: inline-block;
+    width: 300px;
+    /* margin: 60px; */
+}
+/* positions  */
+/* 1.absolute */
+/* 2.relative */
+/* 3.fixed */
+/* 4.sticky */
+/* 5.static */
+
+#container{
+    border: 2px solid black;
+    background-color: blueviolet;
+    display: inline-block;
+    width: 2;
+}
+#item1{
+    border: 2px solid black;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+#item2{
+    border: 2px solid black;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+#item3{
+    border: 2px solid black;
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+#item4{
+    border: 2px solid black;
+    background-color: darkgoldenrod;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+/* ------------------------------------------Amazon-website----------------------------------------- */
+
+
+#navbar-container{
+    border: 2px solid gray;
+    background-color: black;
+    height: 60px;
+    width: 1400px;
+    display: inline-block;
+    position: static;
+
+}
+#amazon{
+    color: gold;
+    font-size: 30px;
+    /* text-decoration-thickness: 20px; */
+    /* text-size-adjust: 30px; */
+}
+#Location{
+    color: white;
+    margin-left: 150px;
+}
+#Hello-sign-in{
+    color: white;
+    margin-left:150px ;
+}
+#Returns{
+    color: white;
+    margin-left: 150px;
+}
+#button{
+    background-color: yellow;
+}
+#div-nav{
+    display: inline-block;
+}
+#type66{
+    margin-left: 150px;
+}
+
+
+#dsf11{
+    border: 2px solid black;
+    height: 2000px;
+    background-color: darkgoldenrod;
+}
+
+#navbar-container1{
+    border: 2px solid gray;
+    background-color: black;
+    height: 60px;
+    width: 1400px;
+    display: inline-block;
+    position: fixed;
+    top: 10px;
+    /* right: 10px; */
+}
+#amazon1{
+    color: gold;
+    font-size: 30px;
+    /* text-decoration-thickness: 20px; */
+    /* text-size-adjust: 30px; */
+}
+#Location1{
+    color: white;
+    margin-left: 150px;
+}
+#Hello-sign-in1{
+    color: white;
+    margin-left:150px ;
+}
+#Returns1{
+    color: white;
+    margin-left: 150px;
+}
+#button1{
+    background-color: yellow;
+}
+#div-nav1{
+    display: inline-block;
+}
+#type661{
+    margin-left: 150px;
+}
+
+#a1123{
+    height: 620px;
+    border: 2px solid black;
+    background-color: aqua;
+    width: 1300px;
+    text-align: center;
+}
+
+/* -------------------------------Boxes in amazon-------------------------- */
+#sale{
+    border: 2px solid black;
+    height: 720px;
+    width: 1400px;
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    padding-right:50px ;
+}
+#lrt0{
+    text-align: center;
+    background-color: orchid;
+}
+#box11{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+#box11:hover{
+    /* box-shadow: 30px 30px 30px red; */
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 220px;
+    background-color: gray;
+    color: gold;
+    /* box-shadow: 2px; */
+    transition-duration: 1s;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#box12{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    
+}
+
+#box12:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    transition-duration: 3s;
+    color: gold;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#box13{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+
+#box13:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    transition-duration: 3s;
+}
+
+#box14{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box14:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    color: gold;
+    background-color: black; 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    transition-duration: 2s;
+
+}
+#box15{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box15:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold; 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    transition-duration: 2s;
+}
+
+
+#box11a{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box11a:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#box12b{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box12b:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    color: gold;
+    background-color: black;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#box13c{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box13c:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#box14d{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box14d:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#box15e{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box15e:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#box11f{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box11f:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#box12g{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box12g:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#box13h{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box13h:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#box14i{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box14i:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#box15j{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box15j:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+
+#box11k{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box11k:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#box12l{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box12l:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#box13m{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box13m:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+#box14n{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box14n:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+#box15o{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box15o:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;    
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+
+#box11p{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box11p:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#box12q{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box12q:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+#box13r{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box13r:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#box14s{
+    border: 2px solid black;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+}
+#box14s:hover{
+    border: 2px solid gold;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    color: gold;
+    transition-duration: 2s;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#box15t{
+    border: 2px solid black;
+    display: inline-block;
+    height: 145px;
+    width: 1300px;
+    background-color: orangered;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 30px;
+    color:yellow;
+}
+
+/* #purchase-button{
+    border: 2px solid black;
+    color: black;
+    background-color: green;
+    text-align: center;
+} */
+#purchase-button2{    
+    border: 5px solid black;
+    border-radius: 30px;
+    color: black;
+    background-color: green;
+    width: 500px;
+    height: 60px;
+    /* margin-right:50px ; */
+    margin-left: 400px;
+    font-size: 30px;
+}
+#purchase-button2:hover{
+    border: 5px solid black;
+    color: brown;
+    background-color: yellow;
+    width: 500px;
+    height: 60px;
+    /* margin-right:50px ; */
+    margin-left: 400px;
+    font-size: 30px;
+    border-radius: 30px;
+
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+/* -----------------------------Flexbox implementation---------------------------------------- */
+
+#Flexbox-container{
+    border: 2px solid black;
+    height: 900px;
+    width: 1000px;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+#item1{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+#item2{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+}
+#item3{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
+#item4{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+#item5{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+
+
+#Flexbox-container23{
+    border: 2px solid black;
+    height: 900px;
+    width: 1000px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+#item1a{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+#item2a{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+}
+#item3a{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+}
+#item4a{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+#item5a{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+

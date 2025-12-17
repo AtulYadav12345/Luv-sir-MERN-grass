@@ -1,0 +1,265 @@
+#Assignment-navbar88{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 1300px;
+    display: flex;
+    /* display: inline-block; */
+    /* text-align: end; */
+    flex-direction: row;
+    justify-content: end;
+    /* align-content: center; */
+    align-items: center;
+}
+#Assignment-home88{
+    /* border: 2px solid black; */
+    color: white;
+    margin-right: 20px;    
+    
+}
+
+#Assignment-About88{
+    /* border: 2px solid black; */
+    color: white;
+    margin-right: 20px;    
+}
+#Assignment-Contact88{
+    /* border: 2px solid black; */
+    color: white;
+    margin-right: 20px;    
+}
+
+
+#card-container{
+    display: flex;
+    width: 1300px;
+    height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#card1{
+    border: 2px solid rgb(218, 216, 216);
+    width: 400px;
+    height: 40px;
+    flex-grow: 10px;
+    background-color: rgb(218, 216, 216);
+    margin-right: 20px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#card2{
+    border: 2px solid rgb(218, 216, 216);
+    width: 400px;
+    height: 40px;
+    flex-grow: 10px;
+    background-color: rgb(218, 216, 216);
+    margin-right: 20px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#card3{
+    border: 2px solid rgb(218, 216, 216);
+    width: 400px;
+    height: 40px;
+    flex-grow: 10px;
+    background-color: rgb(218, 216, 216);
+    margin-right: 20px;
+    /* text-align: center; */
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Hello-flexbox-container908{
+    width: 1300px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#Hello-flexbox{
+    width: 1200px;
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Hello-flexbox-888{
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*---------------------------------------------------- Grid------------------------------------------------------ */
+
+/* Grid Assignment-1 */
+
+#grid-assign-4{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 1200px;
+    height: 800px;
+    display: grid;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    grid-template-columns: 366px 366px 366px; /* yha pr mene jitna gap(16px) diya wo column ki size me bhi add krdiya uski wjh se visually gap bhi aa gya aur content grid ke box se bahr bhi nahi gya */
+    grid-template-rows: 66px 66px 66px;/* yha pr mene jitna gap(16px) diya wo row ki size me bhi add krdiya uski wjh se visually gap bhi aa gya aur content grid ke box se bahr bhi nahi gya */
+    /* yha grid-template-coume aur grid template-row se hm sirf colume(horizontal space of colume) aur row(vertical space of row) hi define kr rhe hai kitne items honge vo html me dene pdenge vrna vo show nahi honge*/
+    row-gap: 16px;
+    column-gap: 16px;
+}
+
+.items98{
+    margin-top: 16px;
+    margin-left: 16px;
+    border: 2px solid black;
+    /* width: 300px; */
+    /* height: 50px; */
+    background-color: red;
+}
+
+
+/* Grid Assignment-2 */
+
+#Overlap-container{
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+}
+#overlap-item1a{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    /* z-index: 1; */
+    
+}
+#overlap-item1b{
+    background-color: orangered;
+    /* z-index: 2;  isme background ko bhi ek z-index deni hoti hai mtlb sare z-index ke participant content/element ko ek z-index value deni pdegi jisko negative value denge vo sbse piche jayega aur jisko sbse jyada positive value denge vo sbse age ayega mtlb sbke upr overlap krega jin bhi elements ko z-index ka use krke hm */
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+
+/* Grid Assignment-3 */
+
+#grid-container500{
+    display: grid;
+    background-color: chocolate;
+    height: 175px;
+    width: 655px;
+    grid-template-columns: 116px 116px 116px 116px 116px;
+    grid-template-rows: 46px 46px 46px 46px 46px;
+    gap: 16px;
+    justify-content: center;
+    /* align-content: center;*/
+}
+
+#items1ab{
+    border: 2px solid black;
+    background-color:blue ;
+    grid-column-start: 1;
+    grid-column-end:6;
+
+}
+#items2ab{
+    border: 2px solid black;
+    background-color:blue ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#items3ab{
+    border: 2px solid black;
+    background-color:blue ;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+#items4ab{
+    border: 2px solid black;
+    background-color:blue ;
+    grid-column-start:3;
+    grid-column-end:6;
+}
+
+
+/*---------------------------------Grid-template-area------------------------------- */
+#Grid-template-area995{
+    border: 2px solid black;
+    height: 800px;
+    width: 900px;
+    background-color: goldenrod;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas: "header header header"
+                         "item1  item2  item3"
+                         "item1  item4  item3"
+                         "footer footer footer";
+    /* z-index: 2;                      */
+                         
+}
+
+#itemsbj1{
+    border: 2px solid black;
+    grid-area: header;
+    background-color: red;
+    /* z-index: -1; */
+}
+#itemsbj2{
+    border: 2px solid black;
+    grid-area:item1 ;
+    background-color: blue;
+}
+#itemsbj3{
+    border: 2px solid black;
+    grid-area: item2;
+    background-color: purple;
+}
+#itemsbj4{
+    border: 2px solid black;
+    grid-area: item3;
+    background-color: pink;
+}
+#itemsbj5{
+    border: 2px solid black;
+    grid-area: item4;
+    background-color: aqua;
+}
+#itemsbj6{
+    border: 2px solid black;
+    grid-area: footer;
+    background-color: deeppink;
+}
+
