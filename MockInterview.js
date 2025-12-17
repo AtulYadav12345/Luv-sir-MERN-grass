@@ -369,4 +369,4 @@ function sayHi() {
 //git push -u origin main (code ko push krne ke liye github ki main branch pe)
 //Maximum 50 mb se jyada ki file hm github pe push nahi kr skte ,mtlb image and videos generally nahi rkh skte code or text hi rkhenge
 
-//Git clone link of the repository which need to be copy
+//git clone link of the repository which need to be copy
