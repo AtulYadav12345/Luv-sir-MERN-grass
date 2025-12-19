@@ -354,6 +354,7 @@ function sayHi() {
 //Git ignore
 //U - untraced
 //A - added
+//M - Modified
 //Git init krne ke baad sari files ke age 
 //U mtlb untraced konsi repositary me dallni hai 
 //Git add (File ke age 'A' likha ayega )
@@ -370,3 +371,12 @@ function sayHi() {
 //Maximum 50 mb se jyada ki file hm github pe push nahi kr skte ,mtlb image and videos generally nahi rkh skte code or text hi rkhenge
 
 //git clone link of the repository which need to be copy
+//git pull command se hm git branches ko merge kr skte hai 
+
+
+//git branch (Btadega ki kitni branches exist kr rahi hai)
+//git checkout -b branchname  (nye branchname bhi bn jayega aur nayi branch pe bhi aa jayenge)
+
+
+
+//Git conflict
