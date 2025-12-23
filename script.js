@@ -832,6 +832,20 @@ console.log(squar55);*/
 })();*/
 
 
+//Default parameters
+//Mtlb agr do se jyada parameters hai aur sum function ya kisi function me me unka use hm nahi krenge to unko ek default value dena jaruri hota hai isse jb bhi hm unka use nahi krenge tb koi error nahi ayega aur esa nahi kiya to Nan(Not a number) ayega 
+//Parameters functions ke variable 
+function sum(a = 0,b = 0,c = 0,d = 0){
+    return a+b+c+d
+}
+console.log(sum(4,4,7))
+//Nan
+
+function sub(a = 0,b = 0,c = 0,d = 0){
+    return a*b
+}
+console.log(sub(2,3))
+
 
 
 
