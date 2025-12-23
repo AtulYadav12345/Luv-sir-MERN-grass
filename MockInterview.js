@@ -376,6 +376,10 @@ function sayHi() {
 
 //git branch (Btadega ki kitni branches exist kr rahi hai)
 //git checkout -b branchname  (nye branchname bhi bn jayega aur nayi branch pe bhi aa jayenge)
+//git checkout branchname (jis bhi branch me jana hai uska name jese main , branch1 , branch2)
+
+//Merge conflict same file me same line pe alg-alg branches me alg-alg change krke jb hm add krke commit krke merge krenge tb ye merge conflict ayega kyoki git/github ye decide nahi kr payenge ki konsa code rkhna chahiye aur konsa nahi 
+//Resolve conflict ke through isse krte hai 
 
 
 

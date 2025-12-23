@@ -1125,6 +1125,9 @@ Object building	{}
 
 
 //------------------------------------------------String methods---------------------------------------------------------
+let name44w = "Raj"
+ console.log(`How are you ${name44w} .what are you doing`)
+ //  `` inn symbols ke bichme jo string data hota hai chahe kitna hi bda ho agr ${variable} iss trh likhte hai to hm uss string me kisi bhi position pe koi bhi varible insert kra payenge bina coma lgaye
 
 //1).Lenght in string
 let nam344a = "hello world" //Output 11    space ko bhi count krt hai
@@ -2167,6 +2170,16 @@ console.log("Next code runs immediately");
 
 
 //Loops in arrays
+
+
+
+
+
+
+
+//==========================================Backhend============================================
+//Nodejs
+
 
 
 
