@@ -12,6 +12,12 @@
 // Dynamic aur intractive website bnane me js kam aati hai 
 // script ko html me body element me sbse last me isliye lgate hai kyoki pehle pure html and css ki file render krna pdega uske baad js uspe apply hogi isliye taki css pehle apply ho html pr phir js apply ho isliye js script tag ko Html ki body tag ke last me dete hai
 // hr variable ko ek memory milti hai
+//Lexical scope in javscript
+  //Variables stay inside the code box where they are created
+  //Inner boxes can use outer variables
+  //Outer boxes can use outer variables.
+  //Outer boxes cannot use inner variable.
+  //This rule of scope called Lexical scope
 // Two types of datatype
 //  1.primitive datatype - pehle se js apne aap jo datatype dedeti hai
 // 2. Non-primitive- jo datatype hm khud dete hai exapmle- null, object, array, functions
@@ -277,6 +283,12 @@ var a8 = "Before"; //Output Undefined
 // Temporal dead zone (TDZ) let aur const me hota hai var me nahi kyoki var hoisting ko support krta hai aur hoisting let and const ko support nahi krta hai.
 //Hoisting ki vjh se Variable declare krne se phle usko print krayenge to let aur const me error dega kyoki vo ek Temporal dead Zone TDZ  me aa jayenge kyoki unko javascript declare nahi kregi
 
+//Lexical scope in javscript
+  //Variables stay inside the code box where they are created
+  //Inner boxes can use outer variables
+  //Outer boxes can use outer variables.
+  //Outer boxes cannot use inner variable.
+  //This rule of scope called Lexical scope
 
 
 

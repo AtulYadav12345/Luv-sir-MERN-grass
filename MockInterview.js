@@ -352,7 +352,7 @@ function sayHi() {
 
 //Readme file is the longer description of our project
 //Git ignore
-//U - untraced
+//U - untracked
 //A - added
 //M - Modified
 //Git init krne ke baad sari files ke age 
