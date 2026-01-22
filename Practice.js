@@ -8,7 +8,7 @@
 
 
 
-
+/*
 let Promis_chain1 = new Promise(function(Resolve,Reject){
         console.log("promisese is pending")
         setTimeout(()=>{
@@ -88,6 +88,37 @@ catch{
     console.log(error)
 }
 
+*/
+
+
+
+
+//forEach 
+//Works with array only, does not change the origin array
+let arr3 = [1,2,3,4,5]
+arr3 = "hello world"
+// let forEach = arr3.forEach((value,index)=>{
+//     console.log("Value:",value+1)
+//     console.log("Index:",index)
+//     return value+1;
+// })
+
+//for-of
+//Array and string
+//Ye loop break nahi hoga
+for(let nums of arr3){
+    console.log(nums+1)
+    return nums*2
+}
+
+for(let words of str3){
+    console.log(words)
+}
+
+//bina kisi condition ke array ya string ko alter krne ke liya 
+
+//for-in
+//only work in objects
 
 
 

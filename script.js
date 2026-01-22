@@ -210,6 +210,9 @@ console.log(!a4);
 //Null value wala variable 4 bytes occupy krta hai
 //Undefined value wala variable 4 bytes occupy krta hai
 
+//JavaScript variables are dynamically typed, and their type is decided by the interpreter at runtime.
+         //iska mtlb hmne age let variable ko koi value ek bar dedi uske baadme vapis se koi nayi value alg data type ki value dedi same name ke let variable ko to iss js accept krlegi aur runtime me jo value badme di hai use consider kregi ye javascript interpreter(execure code line by line) ka dynamic nature show krta hai 
+
 
 
 // let a4 = 90; //same name wale let variable ko bar-bar define nahi kr skte hai but value change kr skte hai
@@ -305,6 +308,26 @@ var a8 = "Before"; //Output Undefined
 a11 = "Hello"
 // console.log(a11*5);
 
+//forEach 
+//Works with array only, does not change the origin array
+let arr3 = [1,2,3,4,5]
+let forEach = arr3.forEach((value,index)=>{
+    console.log("Value:",value+1)
+    console.log("Index:",index)
+    return value+1;
+})
+
+//for-of
+//Array and string
+//Ye loop break nahi hoga
+for(let nums of arr3){
+    console.log(nums+1)
+    return nums*2
+}
+
+for(let words of str3){
+    console.log(words)
+}
 
 //----------------------------------------------For loop
 //3parts For loops
